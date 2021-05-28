@@ -26,11 +26,9 @@ jobs:
           type=schedule
           type=ref,event=branch
           type=ref,event=pr
-          type=semver,pattern={{version}}
           type=semver,pattern={{major}}.{{minor}}
-          type=semver,pattern={{major}}
-          type=sha
     - name: Run
       run: |
         echo $(git rev-list --tags --max-count=1)
         git describe --tags $(git rev-list --tags --max-count=1)
+        echo ${{ steps.meta.outputs.tags }}

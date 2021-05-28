@@ -31,4 +31,4 @@ jobs:
         echo $(git rev-list --tags --max-count=1)
         git describe --tags $(git rev-list --tags --max-count=1)
         echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
-        echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image'] }}
+        echo ${{ steps.meta.outputs.images }}

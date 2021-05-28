@@ -30,4 +30,4 @@ jobs:
           type=sha
     - name: Run
       run: |
-        echo ${{ steps.metaContributors.outputs.tags }}
+        echo ${{ steps.meta.outputs.tags }}

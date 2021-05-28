@@ -30,4 +30,4 @@ jobs:
           type=sha
     - name: Run
       run: |
-        echo ${{ steps.meta.outputs.tags }}
+        git describe --tags $(git rev-list --tags --max-count=1)

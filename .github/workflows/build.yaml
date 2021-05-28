@@ -21,7 +21,6 @@ jobs:
       with:
         images: |
           kubespheredev/s2i-core-centos7
-          ghcr.io/${{ github.repository_owner }}/s2i-core-centos7
         tags: |
           type=schedule
           type=ref,event=branch
@@ -32,4 +31,4 @@ jobs:
         echo $(git rev-list --tags --max-count=1)
         git describe --tags $(git rev-list --tags --max-count=1)
         echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
-        echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.name'] }}
+        echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image'] }}

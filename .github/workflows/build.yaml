@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - name: Docker meta for kubesphere
       id: meta
       uses: docker/metadata-action@v3
@@ -30,4 +32,5 @@ jobs:
           type=sha
     - name: Run
       run: |
+        git rev-list --tags --max-count=1
         git describe --tags $(git rev-list --tags --max-count=1)

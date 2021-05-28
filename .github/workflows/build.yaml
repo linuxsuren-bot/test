@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - **
+    tags:
+      - 'v*.*.*'
+  pull_request:
+    branches:
+      - 'master'
+
+jobs:
+  BuildCore:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Docker meta for kubesphere
+      id: meta
+      uses: docker/metadata-action@v3
+      with:
+        images: |
+          kubespheredev/s2i-core-centos7
+          ghcr.io/${{ github.repository_owner }}/s2i-core-centos7
+        tags: |
+          type=schedule
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=semver,pattern={{major}}
+          type=sha
+    - name: Run
+      run: |
+        echo ${{ steps.metaContributors.outputs.tags }}

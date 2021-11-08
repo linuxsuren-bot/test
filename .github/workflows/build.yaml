@@ -32,10 +32,4 @@ jobs:
         git describe --tags $(git rev-list --tags --max-count=1)
         echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
         echo ${{ steps.meta.outputs.images }}
-    - name: Upload install.yaml
-      uses: AButler/upload-release-assets@v2.0
-      if: github.ref_type	 == 'tag'
-      with:
-        files: 'README.md'
-        release-tag: ${{ github.event.release.tag_name }}
-        repo-token: ${{ secrets.GH_PUBLISH_SECRETS }}
+        echo ${{ github.event.release.tag_name }}

@@ -34,7 +34,8 @@ jobs:
         echo ${{ steps.meta.outputs.images }}
     - name: Upload install.yaml
       uses: AButler/upload-release-assets@v2.0
+      if: github.ref_type	 == 'tag'
       with:
         files: 'README.md'
-        release-tag: "${GITHUB_REF#refs/tags/}"
+        release-tag: ${{ github.event.release.tag_name }}
         repo-token: ${{ secrets.GH_PUBLISH_SECRETS }}

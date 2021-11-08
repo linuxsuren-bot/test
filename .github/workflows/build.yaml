@@ -36,5 +36,4 @@ jobs:
       uses: AButler/upload-release-assets@v2.0
       with:
         files: 'README.md'
-        release-tag: ${GITHUB_REF##*/}
         repo-token: ${{ secrets.GH_PUBLISH_SECRETS }}

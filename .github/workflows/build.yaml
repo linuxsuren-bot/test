@@ -25,11 +25,12 @@ jobs:
           type=schedule
           type=ref,event=branch
           type=ref,event=pr
-          type=semver,pattern=v{{major}}.{{minor}}.{{patch}}
+          type=semver,pattern=pattern={{version}},prefix=v
     - name: Run
       run: |
         echo $(git rev-list --tags --max-count=1)
         git describe --tags $(git rev-list --tags --max-count=1)
         echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
         echo ${{ steps.meta.outputs.images }}
+        echo ${{ steps.metaContributors.outputs.tags }}
         echo ${{ github.ref_name }}

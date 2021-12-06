@@ -25,7 +25,7 @@ jobs:
           type=schedule
           type=ref,event=branch
           type=ref,event=pr
-          type=semver,pattern=pattern={{version}},prefix=v
+          type=semver,pattern=pattern={{raw}}
     - name: Run
       run: |
         echo $(git rev-list --tags --max-count=1)

@@ -12,7 +12,6 @@ body:
       required: true
     attributes:
       label: What is version of KubeSphere DevOps has the issue?
-      description: "Can be found in backstage management system."
   - type: input
     id: how-to-install
     attributes:
@@ -38,5 +37,6 @@ body:
     attributes:
       label: "Additional information"
       description: "If you have other information to note, you can fill it in here (screenshots, videos, etc.)."
+      render: yaml
       value: |
         We highly recommend you read [this guide](https://github.com/LinuxSuRen/open-source-best-practice/blob/75efb3e5b460716e1e4e03fb3846f1876fd3a5c0/how-to-contribute.md)

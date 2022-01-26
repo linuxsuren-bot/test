@@ -5,7 +5,7 @@ body:
   - type: markdown
     id: preface
     attributes:
-      value: "Thanks for taking the time to fill out this bug report! Before that, we highly recommend you to read [this guide](https://github.com/LinuxSuRen/open-source-best-practice/blob/75efb3e5b460716e1e4e03fb3846f1876fd3a5c0/how-to-contribute.md) (which written in Chinese)."
+      value: "Thanks for taking the time to fill out this bug report! Before that, we highly recommend you to read [the open source best practice](https://github.com/LinuxSuRen/open-source-best-practice/blob/75efb3e5b460716e1e4e03fb3846f1876fd3a5c0/how-to-contribute.md) (which written in Chinese)."
   - type: input
     id: version
     validations:

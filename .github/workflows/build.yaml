@@ -2,7 +2,8 @@ name: generator
 
 on:
   push:
-    branches: [ master ]
+    branches:
+    - main
 
   workflow_dispatch:
 

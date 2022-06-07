@@ -19,7 +19,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_SECRETS }}
         with:
-          pattern: 'config/*/*.yml'
+          pattern: 'items/*.yaml'
           username: linuxsuren-bot
           org: linuxsuren-bot
           repo: test

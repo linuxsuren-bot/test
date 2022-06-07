@@ -1,36 +1,24 @@
+name: generator
+
 on:
   push:
-    branches:
-      - '**'
-    tags:
-      - 'v*.*.*'
-  pull_request:
-    branches:
-      - 'master'
+    branches: [ master ]
+
+  workflow_dispatch:
 
 jobs:
-  BuildCore:
-    runs-on: ubuntu-20.04
+  build:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip')"
+
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - name: Docker meta for kubesphere
-      id: meta
-      uses: docker/metadata-action@v3
-      with:
-        images: |
-          kubespheredev/s2i-core-centos7
-        tags: |
-          type=schedule
-          type=ref,event=branch
-          type=ref,event=pr
-          type=semver,pattern=pattern={{version}},prefix=v
-    - name: Run
-      run: |
-        echo $(git rev-list --tags --max-count=1)
-        git describe --tags $(git rev-list --tags --max-count=1)
-        echo ${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.version'] }}
-        echo ${{ steps.meta.outputs.images }}
-        echo ${{ steps.meta.outputs.tags }}
-        echo ${{ github.ref_name }}
+      - uses: actions/checkout@v3
+      - name: Update readme
+        uses: linuxsuren-bot/yaml-readme@linuxsuren-bot-patch-1
+        env:
+          GH_TOKEN: ${{ secrets.GH_SECRETS }}
+        with:
+          pattern: 'config/*/*.yml'
+          username: linuxsuren-bot
+          org: linuxsuren-bot
+          repo: test

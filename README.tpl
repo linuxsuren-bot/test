@@ -5,6 +5,4 @@
 {{- end}}
 
 ## Usage
-```shell
 {{printHelp "hd"}}
-```

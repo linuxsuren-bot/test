@@ -3,3 +3,5 @@
 | Name | Age |
 |---|---|
 | rick | 100 |
+
+## Usage

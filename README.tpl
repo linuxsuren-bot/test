@@ -3,3 +3,6 @@
 {{- range $item := .}}
 | {{$item.name}} | {{$item.age}} |
 {{- end}}
+
+## Usage
+{{printHelp 'hd'}}

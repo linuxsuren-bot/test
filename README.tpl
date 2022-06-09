@@ -5,4 +5,3 @@
 {{- end}}
 
 ## Usage
-{{printHelp 'hd'}}

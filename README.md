@@ -5,6 +5,7 @@
 | rick | 100 |
 
 ## Usage
+```shell
 HTTP download tool
 
 Usage:
@@ -25,3 +26,4 @@ Flags:
 
 Use &#34;hd [command] --help&#34; for more information about a command.
 
+```

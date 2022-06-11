@@ -4,6 +4,12 @@
 |---|---|
 | rick | 100 |
 
+- [Usage](#usage)
+- [Good](#good)
+ - [Better](#better)
+- [Bad](#bad)
+
+
 ## Usage
 ```shell
 HTTP download tool
@@ -27,3 +33,15 @@ Flags:
 Use &#34;hd [command] --help&#34; for more information about a command.
 
 ```
+
+## Good
+
+This is content.
+
+### Better
+
+This is content.
+
+## Bad
+
+This is content.

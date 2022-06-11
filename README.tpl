@@ -21,4 +21,4 @@ This is content.
 
 This is content.
 
-{{printContributors "linuxsuren-bot" "test"}}
+{{printContributors "kubesphere" "ks-devops"}}

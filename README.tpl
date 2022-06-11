@@ -21,4 +21,4 @@ This is content.
 
 This is content.
 
-{{printContributors "linuxsuren-bot" "test" | html}}
+{{printContributors "linuxsuren-bot" "test"}}

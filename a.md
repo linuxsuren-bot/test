@@ -1,4 +1,4 @@
-[Good](#good)
+[good](#good)
 1  
 2  
 3  

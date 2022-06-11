@@ -46,24 +46,24 @@ This is content.
 
 This is content.
 
-&lt;table&gt;
-	&lt;tr&gt;
-		&lt;td align=&#34;center&#34;&gt;
-			&lt;a href=&#34;https://github.com/linuxsuren-bot&#34;&gt;
-				&lt;img src=&#34;https://avatars.githubusercontent.com/u/39147110?v=4&#34; width=&#34;100;&#34; alt=&#34;linuxsuren-bot&#34;/&gt;
-				&lt;br /&gt;
-				&lt;sub&gt;&lt;b&gt;linuxsuren-bot&lt;/b&gt;&lt;/sub&gt;
-			&lt;/a&gt;
-		&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td align=&#34;center&#34;&gt;
-			&lt;a href=&#34;https://github.com/LinuxSuRen&#34;&gt;
-				&lt;img src=&#34;https://avatars.githubusercontent.com/u/1450685?v=4&#34; width=&#34;100;&#34; alt=&#34;LinuxSuRen&#34;/&gt;
-				&lt;br /&gt;
-				&lt;sub&gt;&lt;b&gt;LinuxSuRen&lt;/b&gt;&lt;/sub&gt;
-			&lt;/a&gt;
-		&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/linuxsuren-bot">
+				<img src="https://avatars.githubusercontent.com/u/39147110?v=4" width="100;" alt="linuxsuren-bot"/>
+				<br />
+				<sub><b>linuxsuren-bot</b></sub>
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/LinuxSuRen">
+				<img src="https://avatars.githubusercontent.com/u/1450685?v=4" width="100;" alt="LinuxSuRen"/>
+				<br />
+				<sub><b>LinuxSuRen</b></sub>
+			</a>
+		</td>
+	</tr>
+</table>
 

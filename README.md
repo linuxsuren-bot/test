@@ -45,3 +45,25 @@ This is content.
 ## Bad
 
 This is content.
+
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td align=&#34;center&#34;&gt;
+			&lt;a href=&#34;https://github.com/linuxsuren-bot&#34;&gt;
+				&lt;img src=&#34;https://avatars.githubusercontent.com/u/39147110?v=4&#34; width=&#34;100;&#34; alt=&#34;linuxsuren-bot&#34;/&gt;
+				&lt;br /&gt;
+				&lt;sub&gt;&lt;b&gt;linuxsuren-bot&lt;/b&gt;&lt;/sub&gt;
+			&lt;/a&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td align=&#34;center&#34;&gt;
+			&lt;a href=&#34;https://github.com/LinuxSuRen&#34;&gt;
+				&lt;img src=&#34;https://avatars.githubusercontent.com/u/1450685?v=4&#34; width=&#34;100;&#34; alt=&#34;LinuxSuRen&#34;/&gt;
+				&lt;br /&gt;
+				&lt;sub&gt;&lt;b&gt;LinuxSuRen&lt;/b&gt;&lt;/sub&gt;
+			&lt;/a&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+

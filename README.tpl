@@ -20,3 +20,5 @@ This is content.
 ## Bad
 
 This is content.
+
+{{printContributors "linuxsuren-bot" "test"}}

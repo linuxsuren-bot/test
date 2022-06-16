@@ -1,7 +1,7 @@
-| Name | Age |
-|---|---|
+| Name | Age | Pass |
+|---|---|---|
 {{- range $item := .}}
-| {{$item.name}} | {{$item.age}} |
+| {{$item.name}} | {{$item.age}} | {{render $item.pass}} |
 {{- end}}
 
 {{printToc}}

@@ -35,3 +35,156 @@ Use &#34;hd [command] --help&#34; for more information about a command.
 
 ```
 
+[Rick](https://github.com/LinuxSuRen) (程序员，业余开源布道者)
+
+## Good
+
+This is content.
+
+### Better
+
+This is content.
+
+## Bad
+
+This is content.
+
+<table><tr>
+	<td align="center">
+		<a href="https://github.com/LinuxSuRen">
+			<img src="https://avatars.githubusercontent.com/u/1450685?v=4" width="100;" alt="LinuxSuRen"/>
+			<br />
+			<sub><b>LinuxSuRen</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/JohnNiang">
+			<img src="https://avatars.githubusercontent.com/u/16865714?v=4" width="100;" alt="JohnNiang"/>
+			<br />
+			<sub><b>JohnNiang</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/ks-ci-bot">
+			<img src="https://avatars.githubusercontent.com/u/47586280?v=4" width="100;" alt="ks-ci-bot"/>
+			<br />
+			<sub><b>ks-ci-bot</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/AbdelouahabMbarki">
+			<img src="https://avatars.githubusercontent.com/u/52507296?v=4" width="100;" alt="AbdelouahabMbarki"/>
+			<br />
+			<sub><b>AbdelouahabMbarki</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/lxm">
+			<img src="https://avatars.githubusercontent.com/u/1918195?v=4" width="100;" alt="lxm"/>
+			<br />
+			<sub><b>lxm</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/shihaoH">
+			<img src="https://avatars.githubusercontent.com/u/18361111?v=4" width="100;" alt="shihaoH"/>
+			<br />
+			<sub><b>shihaoH</b></sub>
+		</a>
+	</td>
+</tr><tr>
+	<td align="center">
+		<a href="https://github.com/mangoGoForward">
+			<img src="https://avatars.githubusercontent.com/u/35127166?v=4" width="100;" alt="mangoGoForward"/>
+			<br />
+			<sub><b>mangoGoForward</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/nuclearwu">
+			<img src="https://avatars.githubusercontent.com/u/37976659?v=4" width="100;" alt="nuclearwu"/>
+			<br />
+			<sub><b>nuclearwu</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/mzmuer">
+			<img src="https://avatars.githubusercontent.com/u/27796204?v=4" width="100;" alt="mzmuer"/>
+			<br />
+			<sub><b>mzmuer</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/seanly">
+			<img src="https://avatars.githubusercontent.com/u/232069?v=4" width="100;" alt="seanly"/>
+			<br />
+			<sub><b>seanly</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/Felixnoo">
+			<img src="https://avatars.githubusercontent.com/u/75110798?v=4" width="100;" alt="Felixnoo"/>
+			<br />
+			<sub><b>Felixnoo</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/gaffeyQiu">
+			<img src="https://avatars.githubusercontent.com/u/19790443?v=4" width="100;" alt="gaffeyQiu"/>
+			<br />
+			<sub><b>gaffeyQiu</b></sub>
+		</a>
+	</td>
+</tr><tr>
+	<td align="center">
+		<a href="https://github.com/Feeeenng">
+			<img src="https://avatars.githubusercontent.com/u/14897634?v=4" width="100;" alt="Feeeenng"/>
+			<br />
+			<sub><b>Feeeenng</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/flamywhale">
+			<img src="https://avatars.githubusercontent.com/u/22017865?v=4" width="100;" alt="flamywhale"/>
+			<br />
+			<sub><b>flamywhale</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/ciiiii">
+			<img src="https://avatars.githubusercontent.com/u/28784251?v=4" width="100;" alt="ciiiii"/>
+			<br />
+			<sub><b>ciiiii</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/cndoit18">
+			<img src="https://avatars.githubusercontent.com/u/55286565?v=4" width="100;" alt="cndoit18"/>
+			<br />
+			<sub><b>cndoit18</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/fossabot">
+			<img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="100;" alt="fossabot"/>
+			<br />
+			<sub><b>fossabot</b></sub>
+		</a>
+	</td>
+	<td align="center">
+		<a href="https://github.com/yJunS">
+			<img src="https://avatars.githubusercontent.com/u/20575981?v=4" width="100;" alt="yJunS"/>
+			<br />
+			<sub><b>yJunS</b></sub>
+		</a>
+	</td>
+</tr><tr>
+	<td align="center">
+		<a href="https://github.com/yuezhuangshi">
+			<img src="https://avatars.githubusercontent.com/u/19517509?v=4" width="100;" alt="yuezhuangshi"/>
+			<br />
+			<sub><b>yuezhuangshi</b></sub>
+		</a>
+	</td>
+</tr></table>
+

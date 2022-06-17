@@ -9,7 +9,7 @@
 ## Usage
 {{printHelp "hd"}}
 
-{{gh "linuxsuren"}}
+{{gh "linuxsuren" true}}
 
 ## Good
 

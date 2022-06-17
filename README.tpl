@@ -9,6 +9,8 @@
 ## Usage
 {{printHelp "hd"}}
 
+{{gh "linuxsuren"}}
+
 ## Good
 
 This is content.

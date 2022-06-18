@@ -11,6 +11,9 @@
 
 {{gh "linuxsuren" true}}
 
+
+{{ghs "linuxsuren, linuxsuren-bot" ','}}
+
 ## Good
 
 This is content.

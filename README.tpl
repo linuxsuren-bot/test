@@ -12,7 +12,7 @@
 {{gh "linuxsuren" true}}
 
 
-{{ghs "linuxsuren, linuxsuren-bot" ','}}
+{{ghs "linuxsuren, linuxsuren-bot" ","}}
 
 ## Good
 

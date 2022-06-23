@@ -47,5 +47,5 @@ spec:
     kind: GitRepository
     name: podinfo
   update:
-    path: ./clusters/my-cluster
+    path: ./kustomize
     strategy: Setters

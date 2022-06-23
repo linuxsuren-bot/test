@@ -9,4 +9,5 @@ spec:
   ref:
     branch: master
   url: https://github.com/linuxsuren-bot/podinfo
-
+  secretRef:
+    name: linuxsuren-bot

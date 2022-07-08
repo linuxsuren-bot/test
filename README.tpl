@@ -27,3 +27,7 @@ This is content.
 This is content.
 
 {{printContributors "kubesphere" "ks-devops"}}
+
+## Table
+
+{{printGHTable "linuxsuren"}}

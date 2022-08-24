@@ -20,25 +20,8 @@ jobs:
           tool: hd
       - name: run command
         run: |
-          echo $PATH
-          ls -hal /home/runner/work/_temp/_github_home/
-          sudo chmod +x /home/runner/work/_temp/_github_home/hd
           sudo chown runner:runner /home/runner/work/_temp/_github_home/hd
-          file /home/runner/work/_temp/_github_home/hd
-          ls -hal /home/runner/work/_temp/_github_home/
           /home/runner/work/_temp/_github_home/hd i k9s --fetch=true
           /home/runner/work/_temp/_github_home/hd i hd --fetch=true
-          ls -halr /github
           hd version
           k9s version
-      - name: Update readme
-        uses: linuxsuren/yaml-readme@57517a7b538828e1005866f096c792d052215760
-        env:
-          GH_TOKEN: ${{ secrets.GH_SECRETS }}
-        with:
-          pattern: 'items/*.yaml'
-          username: linuxsuren-bot
-          org: linuxsuren-bot
-          repo: test
-          tool: hd
-

@@ -21,6 +21,7 @@ jobs:
       - name: run command
         run: |
           sudo cp /home/runner/work/_temp/_github_home/hd /usr/bin
+          hd fetch
           hd version
           
           hd i k9s

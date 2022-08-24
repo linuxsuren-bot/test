@@ -20,9 +20,10 @@ jobs:
           tool: hd
       - name: run command
         run: |
-          sudo chown runner:runner /home/runner/work/_temp/_github_home/hd
-          /home/runner/work/_temp/_github_home/hd i k9s --fetch=true
-          k9s version
+          echo sudo chown runner:runner /home/runner/work/_temp/_github_home/hd
 
           /home/runner/work/_temp/_github_home/hd i hd --fetch=true --force=true --target /usr/bin
           hd version
+          
+          hd i k9s
+          k9s version

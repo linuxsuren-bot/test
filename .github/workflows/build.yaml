@@ -21,6 +21,8 @@ jobs:
       - name: run command
         run: |
           echo $PATH
+          /github/home/hd i k9s --fetch=true
+          /github/home/hd i hd --fetch=true
           ls -halr /github
           hd version
           k9s version

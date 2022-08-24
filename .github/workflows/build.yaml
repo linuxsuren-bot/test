@@ -14,6 +14,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: hd
+        uses: linuxsuren/http-downloader@master
+        with:
+          tool: k9s
+      - name: run command
+        run: |
+          hd version
+          k9s version
       - name: Update readme
         uses: linuxsuren/yaml-readme@57517a7b538828e1005866f096c792d052215760
         env:
@@ -24,11 +32,4 @@ jobs:
           org: linuxsuren-bot
           repo: test
           tool: hd
-      - name: hd
-        uses: linuxsuren/http-downloader@master
-        with:
-          tool: k9s
-      - name: run command
-        run: |
-          hd version
-          k9s version
+

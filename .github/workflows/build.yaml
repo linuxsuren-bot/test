@@ -21,8 +21,9 @@ jobs:
       - name: run command
         run: |
           echo $PATH
-          ls -hal  /home/runner/work/_temp/_github_home/
-          chmod u+x  /home/runner/work/_temp/_github_home/hd
+          ls -hal /home/runner/work/_temp/_github_home/
+          chmod u+x /home/runner/work/_temp/_github_home/hd
+          ls -hal /home/runner/work/_temp/_github_home/
           /home/runner/work/_temp/_github_home/hd i k9s --fetch=true
           /home/runner/work/_temp/_github_home/hd i hd --fetch=true
           ls -halr /github

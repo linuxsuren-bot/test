@@ -20,7 +20,7 @@ jobs:
           tool: hd
       - name: run command
         run: |
-          cp /home/runner/work/_temp/_github_home/hd /usr/bin
+          sudo cp /home/runner/work/_temp/_github_home/hd /usr/bin
           hd version
           
           hd i k9s

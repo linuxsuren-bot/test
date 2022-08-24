@@ -22,6 +22,7 @@ jobs:
         run: |
           sudo chown runner:runner /home/runner/work/_temp/_github_home/hd
           /home/runner/work/_temp/_github_home/hd i k9s --fetch=true
-          /home/runner/work/_temp/_github_home/hd i hd --fetch=true
-          hd version
           k9s version
+
+          /home/runner/work/_temp/_github_home/hd i hd --fetch=true --force=true --target /usr/bin
+          hd version

@@ -24,3 +24,11 @@ jobs:
           org: linuxsuren-bot
           repo: test
           tool: hd
+      - name: hd
+        uses: linuxsuren/http-downloader@master
+        with:
+          tool: k9s
+      - name: run command
+        run: |
+          hd version
+          k9s version

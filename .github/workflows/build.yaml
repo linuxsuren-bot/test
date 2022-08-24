@@ -20,10 +20,8 @@ jobs:
           tool: k9s
       - name: run command
         run: |
-          ls -hal /github/home
-          ls -hal /github/file_commands
-          ls -hal /github/workspace
           echo $PATH
+          ls -halr /github
           hd version
           k9s version
       - name: Update readme

@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: hd
-        uses: linuxsuren/setup-hd@master
+        uses: linuxsuren/http-downloader@master
       - name: run command
         run: |
           which hd

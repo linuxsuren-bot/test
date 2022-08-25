@@ -15,11 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: hd
-        uses: linuxsuren/http-downloader@master
-        with:
-          tool: hd
+        uses: linuxsuren/setup-hd@master
       - name: run command
         run: |
+          which hd
           sudo cp /home/runner/work/_temp/_github_home/hd /usr/bin
           hd fetch
           hd version

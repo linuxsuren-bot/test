@@ -17,7 +17,7 @@
 HTTP download tool
 
 Usage:
-  hd [command]
+  hd [command]w
 
 Available Commands:
   completion  Generate shell completion scripts

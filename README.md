@@ -18,7 +18,7 @@ HTTP download tool
 
 Usage:
   hd [command]
-
+1
 Available Commands:
   completion  Generate shell completion scripts
   fetch       Fetch the latest hd config
